@@ -110,12 +110,18 @@ header {
     width: 100%;
 }
 
-.texto-buy {
+.btn-primary {
+    width: 100%;
+    background-color: $background-color_1;
     color: $blanco;
-    text-decoration: none;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    
+    cursor: pointer;
 
     &:hover {
-        color: $blanco;
+        background-color: $background-color_2;
     }
 }
 
@@ -232,7 +238,6 @@ input[type=submit] {
 .texto-nos {
     margin: 20px;
     justify-content: center;
-    background-color: $background-color_3;
     font-size: "inter", "sans-serif";
 }
 

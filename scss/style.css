@@ -111,12 +111,17 @@ header {
   width: 100%;
 }
 
-.texto-buy {
+.btn-primary {
+  width: 100%;
+  background-color: #1cb5e0;
   color: white;
-  text-decoration: none;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
 }
-.texto-buy:hover {
-  color: white;
+.btn-primary:hover {
+  background-color: #000046;
 }
 
 /*galeria*/
@@ -226,7 +231,6 @@ input[type=submit]:hover {
 .texto-nos {
   margin: 20px;
   justify-content: center;
-  background-color: aqua;
   font-size: "inter", "sans-serif";
 }
 
