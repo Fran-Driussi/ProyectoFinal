@@ -37,7 +37,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 1rem;
-    box-shadow: 0 4px 8px 0 $color-shadow;
+    box-shadow: 0 4px 8px 0 map-get($colors,color-shadow );
     padding: 10px;
     font-family: $font-inter;
     font-size: 1.7rem;
@@ -46,7 +46,7 @@ header {
 .view-more {
     display: flex;
     justify-content: center;
-    color: $color_1;
+    color: map-get($colors, color_1 );
     
     font-size: 1rem;
     margin: 1.5rem;
@@ -75,11 +75,11 @@ header {
 
 .card {
     &:hover {
-        box-shadow: 0 8px 16px 0 $color-shadow;
+        box-shadow: 0 8px 16px 0 map-get($colors,color-shadow );
     }
 
     width: 20rem;
-    box-shadow: 0 4px 8px 0 $color-shadow;
+    box-shadow: 0 4px 8px 0 map-get($colors,color-shadow );
     margin: 2rem;
     padding: 1rem;
 }
@@ -101,7 +101,7 @@ header {
 }
 
 .card-text {
-    color: $color_2;
+    color: map-get($colors, color_2 );
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -113,7 +113,7 @@ header {
 .btn-primary {
     width: 100%;
     background-color: $background-color_1;
-    color: $blanco;
+    color: map-get($colors, blanco );
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -133,7 +133,7 @@ header {
     margin: 2rem;
     font-family: $font-inter;
     font-size: 40px;
-    color: $blanco;
+    color:map-get($colors, blanco ) ;
 }
 
 #galeria {
@@ -142,7 +142,7 @@ header {
         height: 250px;
 
         &:hover {
-            box-shadow: 0 4px 8px 0 $color-shadow;
+            box-shadow: 0 4px 8px 0 map-get($colors,color-shadow );
         }
     }
 
@@ -166,7 +166,7 @@ header {
     font-size: 3rem;
     font-family: $font-inter;
     margin-top: 2rem;
-    color: $blanco;
+    color: map-get($colors, blanco );
 }
 
 form {
@@ -178,7 +178,7 @@ form {
     width: 100%;
     display: flex;
     justify-content: center;
-    color: $blanco;
+    color: map-get($colors, blanco );
 }
 
 .maps {
@@ -195,13 +195,13 @@ form {
     align-items: center;
     margin: 1rem;
     font-size: 1, 7rem;
-    color: $blanco;
+    color: map-get($colors, blanco );
 }
 
 input[type=submit] {
     width: 100%;
     background-color: $background-color_1;
-    color: $blanco;
+    color: map-get($colors, blanco );
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
@@ -215,10 +215,11 @@ input[type=submit] {
 
 /*nosotros*/
 .img-fluid {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
-    margin: 10px;
-    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
 }
 
 .titulo-nos {
@@ -236,8 +237,7 @@ input[type=submit] {
 }
 
 .texto-nos {
-    margin: 20px;
-    justify-content: center;
+    margin-bottom: 20px;
     font-size: "inter", "sans-serif";
 }
 
@@ -248,7 +248,7 @@ input[type=submit] {
 
 /*footer*/
 footer {
-    box-shadow: 0 4px 8px 0 $color-shadow;
+    box-shadow: 0 4px 8px 0 map-get($colors,color-shadow );
     padding: 1rem;
 
     ul {

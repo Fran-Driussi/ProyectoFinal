@@ -208,10 +208,11 @@ input[type=submit]:hover {
 
 /*nosotros*/
 .img-fluid {
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
-  margin: 10px;
-  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
 }
 
 .titulo-nos {
@@ -229,8 +230,7 @@ input[type=submit]:hover {
 }
 
 .texto-nos {
-  margin: 20px;
-  justify-content: center;
+  margin-bottom: 20px;
   font-size: "inter", "sans-serif";
 }
 
